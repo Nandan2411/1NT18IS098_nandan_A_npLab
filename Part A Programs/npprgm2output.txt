@@ -1,0 +1,55 @@
+nandan@nandan-Aspire-E5-571P:~$ ls
+ a.out       examples.desktop                   npprgm.c           Templates
+ Desktop     mongodb-compass_1.26.0_amd64.deb  'Part A Programs'   Videos
+ Documents   Music                              Pictures
+ Downloads   npprgm2.c                          Public
+nandan@nandan-Aspire-E5-571P:~$ gedit npprgm2.c
+nandan@nandan-Aspire-E5-571P:~$ gcc npprgm2.c
+npprgm2.c: In function ‘main’:
+npprgm2.c:16:38: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+  printf("String length of buffer is %d\n",strlen(buffer));
+                                     ~^    ~~~~~~~~~~~~~~
+                                     %ld
+nandan@nandan-Aspire-E5-571P:~$ ./a.out
+How many frames you want to send: 5
+Enter frame
+nandan
+String length of buffer is 6
+Enter frame
+butter
+String length of buffer is 6
+Enter frame
+ghee
+String length of buffer is 4
+Enter frame
+disc
+String length of buffer is 4
+Enter frame
+plate
+String length of buffer is 5
+7nandan7butter5ghee5disc6plate
+
+This is the reciever
+
+Data recieved is 7nandan7butter5ghee5disc6plate
+Length of this frame is 7
+
+Frame ----->nandan
+
+Length of this frame is 7
+
+Frame ----->butter
+
+Length of this frame is 5
+
+Frame ----->ghee
+
+Length of this frame is 5
+
+Frame ----->disc
+
+Length of this frame is 6
+
+Frame ----->plate
+nandan@nandan-Aspire-E5-571P:~$ 
+
