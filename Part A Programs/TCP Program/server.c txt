@@ -1,0 +1,25 @@
+nandan@nandan-Aspire-E5-571P:~$ cd Part A Programs
+bash: cd: too many arguments
+nandan@nandan-Aspire-E5-571P:~$ cd PartAPrograms
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gedit tcp.txt
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gedit server.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc server.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+unable to bind: Address already in use
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gedit server.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc server.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+tcp server is waiting for client on port XXXX
+reciecved data is tcp.txt
+
+
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc server.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+tcp server is waiting for client on port XXXX
+reciecved data is hello hi
+
+
+Segmentation fault (core dumped)
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ 
+
+
