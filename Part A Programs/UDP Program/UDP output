@@ -1,0 +1,18 @@
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc udpclient.c
+udpclient.c: In function ‘main’:
+udpclient.c:18:32: warning: implicit declaration of function ‘inet_addr’; did you mean ‘s6_addr’? [-Wimplicit-function-declaration]
+   serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+                                ^~~~~~~~~
+                                s6_addr
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+Type a sentence to send to server:
+hi how are you
+You typed: hi how are you
+Received from server: HI HOW ARE YOU
+
+Type a sentence to send to server:
+Nandan
+You typed: Nandan
+Received from server: NANDAN
+
+Type a sentence to send to server:
