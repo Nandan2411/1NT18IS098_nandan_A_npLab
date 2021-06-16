@@ -1,0 +1,39 @@
+nandan@nandan-Aspire-E5-571P:~$ cd PartAPrograms
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ls
+ a.out   Distvec.c   npprgm2.c          'TCP Program'
+ CRC     npprgm1.c   npprgm2output.txt  'UDP Program'
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gedit Distvec.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc Distvec.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+
+Enter the number of nodes: 3
+
+Enter the cost matrix
+0 1 5 
+1 0 2
+5 2 0
+
+
+State value for router 1 is 
+
+Node 	 Via 	 Dist. 
+1 	 1 	 0 
+2 	 2 	 1 
+3 	 2 	 3 
+
+State value for router 2 is 
+
+Node 	 Via 	 Dist. 
+1 	 1 	 1 
+2 	 2 	 0 
+3 	 3 	 2 
+
+State value for router 3 is 
+
+Node 	 Via 	 Dist. 
+1 	 2 	 3 
+2 	 2 	 2 
+3 	 3 	 0 
+
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ 
+
