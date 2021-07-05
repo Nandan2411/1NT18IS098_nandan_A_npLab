@@ -1,0 +1,20 @@
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc npprgm1.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+Enter the number of bits of the message
+10
+Enter the bits
+0
+1
+1
+1
+1
+1
+1
+1
+1
+0
+The length is: 27
+The frame is
+011111100111110111001111110
+Reciever side message is:0111111110nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ 
+

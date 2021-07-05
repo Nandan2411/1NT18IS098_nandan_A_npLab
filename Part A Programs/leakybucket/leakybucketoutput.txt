@@ -1,0 +1,35 @@
+nandan@nandan-Aspire-E5-571P:~$ cd PartAPrograms
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ls
+ a.out              distanceVectorAlgo.c   npprgm2.c          'UDP Program'
+ CRC                leakybucket.c          npprgm2output.txt
+'Distance Vector'   npprgm1.c             'TCP Program'
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gedit leakybucket.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc leadbucket.c
+gcc: error: leadbucket.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ gcc leakybucket.c
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ ./a.out
+
+ enter bucket size : 40
+
+ enter output rate :20
+
+ enter number of packets coming at second 1 :20
+
+ enter 1 to contiue or 0 to quit..........1
+
+ enter number of packets coming at second 2 :30
+
+ enter 1 to contiue or 0 to quit..........1
+
+ enter number of packets coming at second 3 :10
+
+ enter 1 to contiue or 0 to quit..........0
+
+ Second 	 Recieved 	 Sent 	 Dropped 	Remained 
+  1 		20	  	20	  	 0	 0 
+  2 		30	  	20	  	 0	 10 
+  3 		10	  	20	  	 0	 0 
+nandan@nandan-Aspire-E5-571P:~/PartAPrograms$ 
+
